@@ -1,0 +1,17 @@
+{
+  "name": "moive",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "^1.5.3",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+    "mongoose": "^4.2.2",
+    "underscore": "^1.8.3"
+  }
+}
