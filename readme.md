@@ -1,7 +1,21 @@
 # imooc 第一季 mongodb + node + jade 电影网站
 
-        jade,bower,mongodb使用
+	jade,bower,mongodb使用
+	window mongodb startup
 
+	mongod --dbpath=D:\MongoDB\db
+
+	ubuntu mongodb startup
+
+	./mongod --dbpath /var/lib/mongodb/ --logpath /var/log/mongodb/mongodb.log --logappend &
+	if err
+
+	/var/lib/mongodb 
+	
+	delete
+	mongod.lock
+
+	
 # schemas 学习
 
         最大的问题在于mongodb的使用。vscode对于node的调试很强大。。
@@ -100,7 +114,7 @@
 
 
 
-mongod --dbpath=D:\MongoDB\db
+
 # 删除数据库
 - show dbs 参看数据库数量
 - db 返回所在的数据库位置
