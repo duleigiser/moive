@@ -3,7 +3,7 @@ var jade = require('jade');
 var mongoose = require('mongoose');
 var _ = require('underscore');
 var Movie = require('./models/movie');
-
+var User = require('./models/user')
 // 静态资源请求路径
 var path = require('path');
 var bodyParser= require('body-parser');
@@ -43,6 +43,19 @@ app.get('/', function (req, res) {
         res.render('index', {title:'电影-首页', movies: movies});
     });
 });
+
+//sign up
+ 
+app.post('user/signup',function(req,res){
+    var _user = req.body.user
+    console.log(_user)
+})
+
+
+
+
+
+
 app.get('/list', function (req, res) {
     Movie.fetch(function (err, movies) {
         if (err) {
