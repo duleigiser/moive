@@ -46,7 +46,7 @@ app.get('/', function (req, res) {
 
 //sign up
  
-app.post('user/signup',function(req,res){
+app.post('/user/signup',function(req,res){
     var _user = req.body.user
     console.log(_user)
 })
