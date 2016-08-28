@@ -20,9 +20,9 @@
                  options:{
                      file:'app.js',
                      args:[],
-                     ignoredFiles:["readme.md",'node_modules/**',".DS_Store"],
+                     ignoredFiles:["readme.md",'node_modules/**',".DS_Store",'.git'],
                      watchExtensions:["js"],
-                     watchedFolders:['app','config'],
+                     watchedFolders:['./'],
                      debug:true,
                      delayTime:1,
                      env:{
